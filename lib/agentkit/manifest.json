@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-aitableai",
+      "description": "Connect AI agents to AITable.ai using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-aitableai/SKILL.md": "4226b185a84f04b6bc3b7ac475cda9457dccc6abcaf619b3405c807d35a4b333"
+  }
+}
