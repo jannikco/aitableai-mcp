@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "e8ee7d2eb9c35d7370476fef919dd99242fd3b2d2a2ada6de97a2822105ce8da",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://developers.aitable.ai/api/reference/"
+  ],
+  "id": "aitableai-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AITable.ai MCP setup and connection checker",
+  "description": "Generate AITable.ai MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "aitableai",
+  "appName": "AITable.ai",
+  "providerDocs": "https://developers.aitable.ai/api/reference/",
+  "providerWebsite": "https://aitable.ai/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://developers.aitable.ai/api/quick-start/",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-aitableai-mcp"
+}
